@@ -6,13 +6,14 @@ import org.apache.shiro.session.Session;
 import org.apache.shiro.session.mgt.SessionContext;
 import org.apache.shiro.session.mgt.SessionFactory;
 import org.apache.shiro.web.session.mgt.WebSessionContext;
+import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
-
+@Component
 public class OnlineSessionFactory implements SessionFactory {
 
 
-
+    @Override
     public Session createSession(SessionContext initData) {
         OnlineSession session = new OnlineSession();
         if (initData != null && initData instanceof WebSessionContext)

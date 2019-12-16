@@ -104,8 +104,7 @@ public class OnlineWebSessionManager extends DefaultWebSessionManager {
         List<SysUserOnline> userOnlineList = userOnlineService.selectOnlineByExpired(expiredDate);
         // 批量过期删除
         List<String> needOfflineIdList = new ArrayList<String>();
-        for (SysUserOnline userOnline : userOnlineList)
-        {
+        for (SysUserOnline userOnline : userOnlineList){
             try
             {
                 SessionKey key = new DefaultSessionKey(userOnline.getSessionId());

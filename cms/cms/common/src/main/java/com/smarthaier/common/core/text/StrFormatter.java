@@ -1,7 +1,7 @@
 package com.smarthaier.common.core.text;
 
-import com.ruoyi.common.utils.StringUtils;
 
+import  com.smarthaier.common.utils.StringUtils;
 /**
  * 字符串格式化
  * 

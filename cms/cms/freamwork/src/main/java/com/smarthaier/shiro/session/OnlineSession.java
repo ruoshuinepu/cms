@@ -33,32 +33,91 @@ public class OnlineSession extends SimpleSession {
     /** 属性是否改变 优化session数据同步 */
     private transient boolean attributeChanged = false;
 
-    public static long getSerialVersionUID() {
-        return serialVersionUID;
+    @Override
+    public String getHost()
+    {
+        return host;
     }
 
-    public Long getUserId() {
+    @Override
+    public void setHost(String host)
+    {
+        this.host = host;
+    }
+
+    public String getBrowser()
+    {
+        return browser;
+    }
+
+    public void setBrowser(String browser)
+    {
+        this.browser = browser;
+    }
+
+    public String getOs()
+    {
+        return os;
+    }
+
+    public void setOs(String os)
+    {
+        this.os = os;
+    }
+
+    public Long getUserId()
+    {
         return userId;
     }
 
-    public void setUserId(Long userId) {
+    public void setUserId(Long userId)
+    {
         this.userId = userId;
     }
 
-    public String getLoginName() {
+    public String getLoginName()
+    {
         return loginName;
     }
 
-    public void setLoginName(String loginName) {
+    public void setLoginName(String loginName)
+    {
         this.loginName = loginName;
     }
 
-    public String getDeptName() {
+    public String getDeptName()
+    {
         return deptName;
     }
 
-    public void setDeptName(String deptName) {
+    public void setDeptName(String deptName)
+    {
         this.deptName = deptName;
+    }
+
+    public OnlineStatus getStatus()
+    {
+        return status;
+    }
+
+    public void setStatus(OnlineStatus status)
+    {
+        this.status = status;
+    }
+
+    public void markAttributeChanged()
+    {
+        this.attributeChanged = true;
+    }
+
+    public void resetAttributeChanged()
+    {
+        this.attributeChanged = false;
+    }
+
+    public boolean isAttributeChanged()
+    {
+        return attributeChanged;
     }
 
     public String getAvatar() {
@@ -70,48 +129,14 @@ public class OnlineSession extends SimpleSession {
     }
 
     @Override
-    public String getHost() {
-        return host;
+    public void setAttribute(Object key, Object value)
+    {
+        super.setAttribute(key, value);
     }
 
     @Override
-    public void setHost(String host) {
-        this.host = host;
-    }
-
-    public String getBrowser() {
-        return browser;
-    }
-
-    public void setBrowser(String browser) {
-        this.browser = browser;
-    }
-
-    public String getOs() {
-        return os;
-    }
-
-    public void setOs(String os) {
-        this.os = os;
-    }
-
-    public OnlineStatus getStatus() {
-        return status;
-    }
-
-    public void setStatus(OnlineStatus status) {
-        this.status = status;
-    }
-
-    public boolean isAttributeChanged() {
-        return attributeChanged;
-    }
-
-    public void setAttributeChanged(boolean attributeChanged) {
-        this.attributeChanged = attributeChanged;
-    }
-
-    public void markAttributeChanged() {
-            this.attributeChanged = true;
+    public Object removeAttribute(Object key)
+    {
+        return super.removeAttribute(key);
     }
 }

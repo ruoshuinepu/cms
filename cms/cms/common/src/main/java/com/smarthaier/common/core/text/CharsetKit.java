@@ -1,6 +1,8 @@
 package com.smarthaier.common.core.text;
 
-import com.ruoyi.common.utils.StringUtils;
+
+
+import com.smarthaier.common.utils.StringUtils;
 
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;

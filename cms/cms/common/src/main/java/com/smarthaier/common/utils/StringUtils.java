@@ -23,4 +23,28 @@ public class StringUtils {
         return (str == null ? "" : str.trim());
 
     }
+
+    public static boolean isEmpty(String strPattern) {
+        if (strPattern == null || strPattern.equals(""))
+            return true;
+        return false;
+    }
+
+    public static boolean isEmpty(Object[] argArray) {
+        if (argArray == null || argArray.length==0)
+            return true;
+        return false;
+    }
+
+    public static boolean isNull(Object object) {
+        if (object == null )
+            return true;
+        return false;
+    }
+
+    public static boolean isNotEmpty(String url) {
+        if (url == null || "".equals(url))
+            return false;
+        return true;
+    }
 }

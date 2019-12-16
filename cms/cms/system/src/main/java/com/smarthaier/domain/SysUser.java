@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.List;
 
 public class SysUser extends BaseEntity {
-    private long userId;
+    private Long userId;
     private Long deptId;
     private Long parentId;
     private Long roleId;
@@ -31,7 +31,7 @@ public class SysUser extends BaseEntity {
     private Long[] postIds;
 
 
-    public long getUserId() {
+    public Long getUserId() {
         return userId;
     }
 
@@ -189,5 +189,9 @@ public class SysUser extends BaseEntity {
 
     public void setPostIds(Long[] postIds) {
         this.postIds = postIds;
+    }
+
+    public boolean isAdmin() {
+        return userId==1?true:false;
     }
 }

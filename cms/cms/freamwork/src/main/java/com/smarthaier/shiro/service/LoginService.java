@@ -13,7 +13,6 @@ import com.smarthaier.shiro.utils.ShiroUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
-import sun.misc.MessageUtils;
 
 @Component
 public class LoginService {
@@ -26,7 +25,7 @@ public class LoginService {
     /**
      * 登录
      */
-    public SysUser login(String username, String password) {
+    public SysUser login(String username, String password) throws Exception{
         // 验证码校验
         if (!StringUtils.isEmpty(ServletUtils.getRequest().getAttribute(ShiroConstants.CURRENT_CAPTCHA))) {
             AsyncManager.me().execute(LoginLogRecord.recordLogininfor(username, "", "user.jcaptcha.error"));
@@ -52,17 +51,17 @@ public class LoginService {
 
         if (user == null) {
             AsyncManager.me().execute(LoginLogRecord.recordLogininfor(username, Constants.LOGIN_FAIL, "user.not.exists"));
-
+            throw new Exception();
         }
 
         if ("1".equals(user.getDelFlag())) {
             AsyncManager.me().execute(LoginLogRecord.recordLogininfor(username, Constants.LOGIN_FAIL, "user.password.delete"));
-
+            throw new Exception();
         }
 
         if ("1".equals(user.getStatus())) {
             AsyncManager.me().execute(LoginLogRecord.recordLogininfor(username, Constants.LOGIN_FAIL, "user.blocked", user.getRemark()));
-
+            throw new Exception();
         }
 
         passwordService.validate(user, password);
