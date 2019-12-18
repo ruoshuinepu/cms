@@ -2,14 +2,26 @@ package com.smarthaier.shiro.web.filter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.smarthaier.common.constant.ShiroConstants;
+import com.smarthaier.common.core.domain.AjaxResult;
+import com.smarthaier.common.utils.ServletUtils;
+import com.smarthaier.domain.SysUser;
+import com.smarthaier.shiro.utils.ShiroUtils;
 import org.apache.shiro.cache.Cache;
 import org.apache.shiro.cache.CacheManager;
+import org.apache.shiro.session.Session;
+import org.apache.shiro.session.mgt.DefaultSessionKey;
 import org.apache.shiro.session.mgt.SessionManager;
+import org.apache.shiro.subject.Subject;
 import org.apache.shiro.web.filter.AccessControlFilter;
+import org.apache.shiro.web.util.WebUtils;
 
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 import java.io.Serializable;
+import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class KickoutSessionFilter extends AccessControlFilter {
@@ -37,6 +49,99 @@ public class KickoutSessionFilter extends AccessControlFilter {
     }
 
     protected boolean onAccessDenied(ServletRequest request, ServletResponse response) throws Exception {
+        Subject subject = getSubject(request, response);
+        if (!subject.isAuthenticated() && !subject.isRemembered() || maxSession == -1)
+        {
+            // 如果没有登录或用户最大会话数为-1，直接进行之后的流程
+            return true;
+        }
+        try
+        {
+            Session session = subject.getSession();
+            // 当前登录用户
+            SysUser user = ShiroUtils.getSysUser();
+            String loginName = user.getLoginName();
+            Serializable sessionId = session.getId();
+
+            // 读取缓存用户 没有就存入
+            Deque<Serializable> deque = cache.get(loginName);
+            if (deque == null)
+            {
+                // 初始化队列
+                deque = new ArrayDeque<Serializable>();
+            }
+
+            // 如果队列里没有此sessionId，且用户没有被踢出；放入队列
+            if (!deque.contains(sessionId) && session.getAttribute("kickout") == null)
+            {
+                // 将sessionId存入队列
+                deque.push(sessionId);
+                // 将用户的sessionId队列缓存
+                cache.put(loginName, deque);
+            }
+
+            // 如果队列里的sessionId数超出最大会话数，开始踢人
+            while (deque.size() > maxSession)
+            {
+                Serializable kickoutSessionId = null;
+                // 是否踢出后来登录的，默认是false；即后者登录的用户踢出前者登录的用户；
+                if (kickoutAfter)
+                {
+                    // 踢出后者
+                    kickoutSessionId = deque.removeFirst();
+                }
+                else
+                {
+                    // 踢出前者
+                    kickoutSessionId = deque.removeLast();
+                }
+                // 踢出后再更新下缓存队列
+                cache.put(loginName, deque);
+
+                try
+                {
+                    // 获取被踢出的sessionId的session对象
+                    Session kickoutSession = sessionManager.getSession(new DefaultSessionKey(kickoutSessionId));
+                    if (null != kickoutSession)
+                    {
+                        // 设置会话的kickout属性表示踢出了
+                        kickoutSession.setAttribute("kickout", true);
+                    }
+                }
+                catch (Exception e)
+                {
+                    // 面对异常，我们选择忽略
+                }
+            }
+
+            // 如果被踢出了，(前者或后者)直接退出，重定向到踢出后的地址
+            if ((Boolean) session.getAttribute("kickout") != null && (Boolean) session.getAttribute("kickout") == true)
+            {
+                // 退出登录
+                subject.logout();
+                saveRequest(request);
+                return isAjaxResponse(request, response);
+            }
+            return true;
+        }
+        catch (Exception e)
+        {
+            return isAjaxResponse(request, response);
+        }
+    }
+
+    private boolean isAjaxResponse(ServletRequest request, ServletResponse response) throws IOException {
+        HttpServletRequest req = (HttpServletRequest) request;
+        HttpServletResponse res = (HttpServletResponse) response;
+        if (ServletUtils.isAjaxRequest(req))
+        {
+            AjaxResult ajaxResult = AjaxResult.error("您已在别处登录，请您修改密码或重新登录");
+            ServletUtils.renderString(res, objectMapper.writeValueAsString(ajaxResult));
+        }
+        else
+        {
+            WebUtils.issueRedirect(request, response, kickoutUrl);
+        }
         return false;
     }
 

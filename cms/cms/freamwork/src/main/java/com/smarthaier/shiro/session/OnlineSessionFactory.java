@@ -1,5 +1,6 @@
 package com.smarthaier.shiro.session;
 
+import com.smarthaier.common.utils.IpUtils;
 import com.smarthaier.common.utils.ServletUtils;
 import eu.bitwalker.useragentutils.UserAgent;
 import org.apache.shiro.session.Session;
@@ -27,7 +28,7 @@ public class OnlineSessionFactory implements SessionFactory {
                 String os = userAgent.getOperatingSystem().getName();
                 // 获取客户端浏览器
                 String browser = userAgent.getBrowser().getName();
-                session.setHost(ServletUtils.getRequest().getRemoteHost());
+                session.setHost(IpUtils.getIpAddr(request));
                 session.setBrowser(browser);
                 session.setOs(os);
             }

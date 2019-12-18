@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface ISysUserOnlineMapper {
 
-    void deleteOnlineById(String sessionId);
+    void deleteOnlineById( @Param("sessionId") String sessionId);
 
     SysUserOnline selectOnlineById(@Param("sessionId") String sessionId);
 

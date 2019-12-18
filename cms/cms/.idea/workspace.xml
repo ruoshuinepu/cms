@@ -36,29 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/static/ruoyi/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/service/SysShiroService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="53" column="47" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="47" />
+            <state relative-caret-position="18">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -66,38 +48,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/CaptchaValidateFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="391">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/config/shiro/ShiroConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="213" column="68" selection-start-line="213" selection-start-column="53" selection-end-line="213" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2682#2706#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/SyncOnlineSessionFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="396">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/smarthaier/web/controller/SysLoginController.java">
+        <entry file="jar://D:/repository/org/apache/shiro/shiro-web/1.4.1/shiro-web-1.4.1-sources.jar!/org/apache/shiro/web/filter/PathMatchingFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+            <state relative-caret-position="193">
+              <caret line="202" selection-start-line="202" selection-end-line="202" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/OnlineWebSessionManager.java">
+        <entry file="jar://D:/repository/org/apache/shiro/shiro-web/1.4.1/shiro-web-1.4.1-sources.jar!/org/apache/shiro/web/filter/AccessControlFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="126" column="24" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
+            <state relative-caret-position="201">
+              <caret line="161" selection-start-line="161" selection-end-line="161" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3450#3458#0" expanded="true" />
+                <element signature="e#3300#3301#0" expanded="true" />
+                <element signature="e#3340#3341#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,17 +115,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/repository/org/apache/shiro/shiro-web/1.4.1/shiro-web-1.4.1-sources.jar!/org/apache/shiro/web/servlet/AdviceFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="130" selection-start-line="130" selection-end-line="130" />
+            <state relative-caret-position="333">
+              <caret line="136" selection-start-line="136" selection-end-line="136" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pom.xml">
+        <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/OnlineSessionFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2067">
-              <caret line="183" selection-start-line="183" selection-end-line="183" />
+            <state relative-caret-position="378">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -137,12 +146,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>common</find>
-      <find>ServletUtils</find>
-      <find>getRemoteHost</find>
-      <find>mysq</find>
-      <find>determineCurrentLookupKey</find>
-      <find>acti</find>
       <find>redirectToLogin</find>
       <find>sessionma</find>
       <find>getRememberMe</find>
@@ -159,14 +162,20 @@
       <find>session</find>
       <find>kickoutSessionFilter</find>
       <find>saveOnline</find>
-      <find>syncSessionToDb</find>
       <find>syncToDb</find>
       <find>sessionDAO</find>
       <find>create</find>
       <find>sessionMan</find>
       <find>DataSource</find>
       <find>signupForm</find>
+      <find>capter</find>
+      <find>syncSessionToDb</find>
+      <find>dbSyncPeriod</find>
+      <find>/login</find>
+      <find>lo</find>
+      <find>btn btn-success btn-block</find>
       <find>btnSubmit</find>
+      <find>KickoutSessionFilter</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,14 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/system/src/main/java/com/smarthaier/service/impl/ISysUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/system/src/main/resources/mapper/system/ISysUserMapper.xml" />
-        <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/config/database/DataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/config/MyBatisConfig.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/smarthaier/common/annotation/MybatisRepository.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/smarthaier/mapper/ISysMenuMapper.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/smarthaier/mapper/ISysUserMapper.java" />
-        <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/service/LoginService.java" />
         <option value="$PROJECT_DIR$/system/src/main/resources/mapper/system/ISysUserInlineMapper.xml" />
         <option value="$PROJECT_DIR$/system/src/main/java/com/smarthaier/mapper/ISysUserInlineMapper.java" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/test.jsp" />
@@ -196,15 +197,11 @@
         <option value="$PROJECT_DIR$/common/src/main/java/com/smarthaier/common/core/page/PageDomain.java" />
         <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/service/SysShiroService.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/smarthaier/web/WebApplication.java" />
-        <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/LogoutFilter.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/smarthaier/common/utils/StringUtils.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/smarthaier/web/TestController.java" />
-        <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/session/OnlineSessionFactory.java" />
         <option value="$PROJECT_DIR$/system/src/main/java/com/smarthaier/service/impl/ISysUserOnlineServiceImpl.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/smarthaier/common/utils/DateUtils.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/smarthaier/mapper/ISysUserOnlineMapper.java" />
         <option value="$PROJECT_DIR$/system/src/main/java/com/smarthaier/service/ISysUserOnlineService.java" />
-        <option value="$PROJECT_DIR$/system/src/main/resources/mapper/system/ISysUserOnlineMapper.xml" />
         <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/SyncOnlineSessionFilter.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/smarthaier/common/utils/Threads.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/smarthaier/common/config/thread/ThreadPoolConfig.java" />
@@ -212,20 +209,32 @@
         <option value="$PROJECT_DIR$/web/src/main/resources/ehcache/ehcache-shiro.xml" />
         <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/utils/ShiroUtils.java" />
         <option value="$PROJECT_DIR$/system/src/main/java/com/smarthaier/domain/SysUser.java" />
-        <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/session/OnlineSession.java" />
-        <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/realm/UserRealm.java" />
         <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/OnlineSessionFilter.java" />
-        <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/CaptchaValidateFilter.java" />
-        <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/config/shiro/ShiroConfig.java" />
         <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/OnlineWebSessionManager.java" />
         <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/session/OnlineSessionDAO.java" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/captcha/CaptchaConfig.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/smarthaier/web/controller/SysCaptchaController.java" />
         <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/config/KaptchaTextCreator.java" />
         <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/config/captcha/CaptchaConfig.java" />
         <option value="$PROJECT_DIR$/web/pom.xml" />
+        <option value="$PROJECT_DIR$/web/target/classes/application.properties" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/static/ruoyi/login.js" />
+        <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/service/SysPasswordService.java" />
+        <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/manager/LoginLogRecord.java" />
+        <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/realm/UserRealm.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/smarthaier/web/controller/system/SysIndexController.java" />
+        <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/session/OnlineSessionFactory.java" />
+        <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/session/OnlineSession.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/smarthaier/domain/SysUserOnline.java" />
+        <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/CaptchaValidateFilter.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/smarthaier/mapper/ISysUserOnlineMapper.java" />
+        <option value="$PROJECT_DIR$/system/src/main/resources/mapper/system/ISysUserOnlineMapper.xml" />
+        <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/config/shiro/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/KickoutSessionFilter.java" />
+        <option value="$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/LogoutFilter.java" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/index.jsp" />
       </list>
     </option>
   </component>
@@ -254,20 +263,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="cms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="system" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="system" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="system" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -300,6 +295,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -341,6 +337,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthaier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthaier" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
@@ -407,6 +424,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="smarthaier" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="shiro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -418,32 +436,97 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="smarthaier" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="freamwork" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="smarthaier" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
@@ -451,6 +534,43 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthaier" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthaier" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthaier" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
@@ -479,17 +599,10 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -500,8 +613,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576490946331" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../cookbook/Code_03_server/CookbookResourcePlatform-pom" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576662263635" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -510,10 +623,8 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ideaworksapce\cms\web\src\main\webapp" />
-      <recent name="D:\ideaworksapce\cms\web\WEB-INF\jsp" />
-      <recent name="D:\ideaworksapce\cms\web\src\main\webapp\WEB-INF" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.smarthaier.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ideaworksapce\shirocms\cms\cms\common\src\main\java\com\smarthaier\common\core" />
@@ -529,8 +640,11 @@
       <recent name="com.smarthaier.common.core.domain" />
       <recent name="com.smarthaier.web.controller" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.smarthaier.domain" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaworksapce\shirocms\cms\cms\web\src\main\resources" />
+      <recent name="D:\ideaworksapce\cms\web\src\main\webapp" />
+      <recent name="D:\ideaworksapce\cms\web\WEB-INF\jsp" />
+      <recent name="D:\ideaworksapce\cms\web\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -611,7 +725,9 @@
       <workItem from="1576135052700" duration="686000" />
       <workItem from="1576198762911" duration="597000" />
       <workItem from="1576216242489" duration="663000" />
-      <workItem from="1576457744419" duration="9582000" />
+      <workItem from="1576457744419" duration="10100000" />
+      <workItem from="1576544915383" duration="27050000" />
+      <workItem from="1576635357404" duration="11486000" />
     </task>
     <task id="LOCAL-00001" summary="多数据源配置添加">
       <created>1574248957888</created>
@@ -627,7 +743,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576491016907</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完善jsp">
+      <created>1576662138569</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576662138569</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -648,11 +771,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110719000" />
+    <option name="totallyTimeSpent" value="149773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -660,7 +782,7 @@
       <window_info id="Favorites" order="3" sideWeight="0.079064585" side_tool="true" weight="0.24413647" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.9209354" weight="0.41577825" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.9209354" visible="true" weight="0.27345416" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -673,7 +795,7 @@
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32962137" />
       <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.3908686" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.3986637" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.29955456" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" />
@@ -684,7 +806,7 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Jms Messenger" order="5" />
       <window_info anchor="right" id="Bean Validation" order="6" />
-      <window_info anchor="right" id="Maven" order="7" weight="0.2196162" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.12153518" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
@@ -696,7 +818,7 @@
       <window_info id="Favorites" order="3" sideWeight="0.079064585" side_tool="true" weight="0.24413647" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.9209354" visible="true" weight="0.41577825" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.9209354" weight="0.2739872" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -708,8 +830,8 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.3908686" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.3986637" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.3908686" />
+      <window_info active="true" anchor="bottom" id="Debug" order="11" visible="true" weight="0.29955456" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" />
@@ -720,7 +842,7 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Jms Messenger" order="5" />
       <window_info anchor="right" id="Bean Validation" order="6" />
-      <window_info anchor="right" id="Maven" order="7" visible="true" weight="0.2196162" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.12153518" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
@@ -737,398 +859,455 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint type="java-line">
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/OnlineSessionFilter.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/OnlineSessionFilter.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/OnlineSessionFilter.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/OnlineSessionFilter.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/SyncOnlineSessionFilter.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/LogoutFilter.java</url>
-          <line>44</line>
+          <line>82</line>
           <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.4.1/shiro-web-1.4.1-sources.jar!/org/apache/shiro/web/filter/AccessControlFilter.java</url>
-          <line>225</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/manager/LoginLogRecord.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/session/OnlineSessionDAO.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1-sources.jar!/org/apache/shiro/session/mgt/DefaultSessionManager.java</url>
-          <line>153</line>
-          <properties />
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/web/src/main/java/com/smarthaier/web/controller/SysCaptchaController.java</url>
-          <line>77</line>
-          <properties />
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/web/src/main/java/com/smarthaier/web/controller/SysCaptchaController.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="78" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/src/main/java/com/smarthaier/web/controller/SysLoginController.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/CaptchaValidateFilter.java</url>
-          <line>47</line>
+          <line>46</line>
           <properties />
-          <option name="timeStamp" value="80" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/src/main/java/com/smarthaier/web/controller/SysLoginController.java</url>
-          <line>31</line>
+          <url>file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/CaptchaValidateFilter.java</url>
+          <line>57</line>
           <properties />
-          <option name="timeStamp" value="83" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1-sources.jar!/org/apache/shiro/mgt/SessionsSecurityManager.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1-sources.jar!/org/apache/shiro/session/mgt/AbstractNativeSessionManager.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1-sources.jar!/org/apache/shiro/session/mgt/eis/EnterpriseCacheSessionDAO.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1-sources.jar!/org/apache/shiro/session/mgt/eis/AbstractSessionDAO.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1-sources.jar!/org/apache/shiro/session/mgt/AbstractValidatingSessionManager.java" />
+    <entry file="jar://D:/repository/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1-sources.jar!/org/apache/shiro/authc/AuthenticationInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/smarthaier/domain/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1-sources.jar!/org/apache/shiro/authc/SimpleAuthenticationInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="72" column="90" selection-start-line="72" selection-start-column="81" selection-end-line="72" selection-end-column="90" />
+          <folding>
+            <element signature="e#5838#5839#0" expanded="true" />
+            <element signature="e#5872#5873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/realm/UserRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="163">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1-sources.jar!/org/apache/shiro/realm/AuthenticatingRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="196" selection-start-line="196" selection-end-line="196" />
+          <folding>
+            <element signature="e#10266#10267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1-sources.jar!/org/apache/shiro/authc/credential/SimpleCredentialsMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="e#3215#3216#0" expanded="true" />
+            <element signature="e#3259#3260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/service/SysPasswordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/manager/AsyncManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/smarthaier/service/ISysMenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13-sources.jar!/javax/servlet/ServletRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="301" column="18" selection-start-line="301" selection-start-column="18" selection-end-line="301" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/session/OnlineSessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1-sources.jar!/org/apache/shiro/session/mgt/SimpleSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="172" column="16" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
+          <folding>
+            <element signature="e#6613#6614#0" expanded="true" />
+            <element signature="e#6651#6652#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13-sources.jar!/org/apache/catalina/core/ApplicationFilterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/session/OnlineSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/smarthaier/service/ISysUserOnlineService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/smarthaier/common/core/domain/BaseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/smarthaier/domain/SysUserOnline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1-sources.jar!/org/apache/shiro/session/mgt/DefaultSessionManager.java" />
-    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/session/OnlineSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/session/OnlineSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1-sources.jar!/org/apache/shiro/session/mgt/eis/CachingSessionDAO.java" />
-    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/OnlineSessionFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/session/OnlineSessionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="87" column="57" selection-start-line="87" selection-start-column="57" selection-end-line="87" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java" />
     <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/manager/LoginLogRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="58" column="69" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/smarthaier/service/ISysUserOnlineService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/smarthaier/service/impl/ISysUserOnlineServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/smarthaier/mapper/ISysUserOnlineMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/resources/mapper/system/ISysUserOnlineMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <caret line="72" column="21" lean-forward="true" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/smarthaier/mapper/ISysRoleMapper.java">
+    <entry file="jar://D:/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="163">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application-druid.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/ajax/libs/report/echarts/echarts-all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        <state relative-caret-position="18">
+          <caret line="22" column="5015" selection-start-line="22" selection-start-column="5015" selection-end-line="22" selection-end-column="5015" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/config/database/properties/DruidProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/repository/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1-sources.jar!/org/apache/shiro/subject/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="331" column="9" selection-start-line="331" selection-start-column="9" selection-end-line="331" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/smarthaier/common/annotation/MybatisRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/smarthaier/common/annotation/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/aspectj/DataSourceAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="65" column="69" selection-start-line="65" selection-start-column="69" selection-end-line="65" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/database/DynamicDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
-          <folding>
-            <element signature="e#2036#2037#0" expanded="true" />
-            <element signature="e#2063#2064#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/smarthaier/common/enums/DataSourceType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/smarthaier/common/config/datasource/DynamicDataSourceContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding>
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/config/database/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/config/MyBatisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/smarthaier/web/WebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/config/shiro/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/config/KaptchaTextCreator.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/css/login.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="8" selection-start-column="8" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret column="62" selection-start-column="62" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/ruoyi/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/config/captcha/CaptchaConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1086">
-          <caret line="68" column="84" selection-start-line="68" selection-start-column="84" selection-end-line="68" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/smarthaier/web/controller/SysCaptchaController.java">
+    <entry file="jar://D:/repository/org/apache/shiro/shiro-web/1.4.1/shiro-web-1.4.1-sources.jar!/org/apache/shiro/web/servlet/AbstractShiroFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/repository/org/apache/shiro/shiro-web/1.4.1/shiro-web-1.4.1-sources.jar!/org/apache/shiro/web/filter/AccessControlFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="161" selection-start-line="161" selection-end-line="161" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/repository/org/apache/shiro/shiro-web/1.4.1/shiro-web-1.4.1-sources.jar!/org/apache/shiro/web/filter/PathMatchingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/repository/org/apache/shiro/shiro-web/1.4.1/shiro-web-1.4.1-sources.jar!/org/apache/shiro/web/servlet/AdviceFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/CaptchaValidateFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/SyncOnlineSessionFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/OnlineWebSessionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="126" column="24" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3450#3458#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/static/ruoyi/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="247">
+          <caret line="438" column="44" lean-forward="true" selection-start-line="438" selection-start-column="44" selection-end-line="438" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/service/SysShiroService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="53" column="47" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="47" />
+        <state relative-caret-position="326">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pom.xml">
+    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/session/OnlineSessionDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2067">
-          <caret line="183" selection-start-line="183" selection-end-line="183" />
+        <state relative-caret-position="153">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#1346#1347#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/smarthaier/web/controller/SysLoginController.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/smarthaier/web/controller/system/SysCaptchaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        <state relative-caret-position="171">
+          <caret line="30" column="56" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/static/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/smarthaier/common/core/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding>
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/smarthaier/common/core/domain/AjaxResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+          <folding>
+            <element signature="e#1636#1637#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1992#1993#0" expanded="true" />
+            <element signature="e#2044#2045#0" expanded="true" />
+            <element signature="e#2218#2219#0" expanded="true" />
+            <element signature="e#2280#2281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/smarthaier/web/controller/system/SysIndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/apache/shiro/shiro-web/1.4.1/shiro-web-1.4.1-sources.jar!/org/apache/shiro/web/servlet/ProxiedFilterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/smarthaier/web/controller/system/SysLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/apache/shiro/shiro-web/1.4.1/shiro-web-1.4.1-sources.jar!/org/apache/shiro/web/servlet/OncePerRequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13-sources.jar!/org/apache/catalina/connector/RequestFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8460">
+          <caret line="551" selection-start-line="551" selection-end-line="551" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13-sources.jar!/org/apache/catalina/connector/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23148">
+          <caret line="1464" selection-start-line="1464" selection-end-line="1464" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/smarthaier/domain/SysUserOnline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/resources/mapper/system/ISysUserOnlineMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/smarthaier/mapper/ISysUserOnlineMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/LogoutFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/smarthaier/service/impl/ISysUserOnlineServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/KickoutSessionFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/apache/shiro/shiro-web/1.4.1/shiro-web-1.4.1-sources.jar!/org/apache/shiro/web/servlet/AdviceFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/config/shiro/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="213" column="68" selection-start-line="213" selection-start-column="53" selection-end-line="213" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2682#2706#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/repository/org/apache/shiro/shiro-web/1.4.1/shiro-web-1.4.1-sources.jar!/org/apache/shiro/web/filter/AccessControlFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
+          <folding>
+            <element signature="e#3300#3301#0" expanded="true" />
+            <element signature="e#3340#3341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/apache/shiro/shiro-web/1.4.1/shiro-web-1.4.1-sources.jar!/org/apache/shiro/web/filter/PathMatchingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/OnlineSessionFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/SyncOnlineSessionFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freamwork/src/main/java/com/smarthaier/shiro/web/filter/CaptchaValidateFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="34" />
         </state>
       </provider>
     </entry>

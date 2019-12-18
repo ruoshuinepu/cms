@@ -20,6 +20,7 @@ function login() {
     var password = $.common.trim($("input[name='password']").val());
     var validateCode = $("input[name='validateCode']").val();
     var rememberMe = $("input[name='rememberme']").is(':checked');
+    console.log(ctx);
     $.ajax({
         type: "post",
         url: ctx + "login",

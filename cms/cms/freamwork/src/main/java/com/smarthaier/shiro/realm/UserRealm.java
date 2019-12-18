@@ -75,7 +75,7 @@ public class UserRealm extends AuthorizingRealm {
             log.info("对用户[" + username + "]进行登录验证..验证未通过{}", e.getMessage());
             throw new AuthenticationException(e.getMessage(), e);
         }
-        SimpleAuthenticationInfo simpleAuthenticationInfo = new SimpleAuthenticationInfo(user, username, password);
+        SimpleAuthenticationInfo simpleAuthenticationInfo = new SimpleAuthenticationInfo(user, password, getName());
 
         return simpleAuthenticationInfo;
     }

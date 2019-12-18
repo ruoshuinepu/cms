@@ -1,4 +1,4 @@
-package com.smarthaier.web.controller;
+package com.smarthaier.web.controller.system;
 
 import com.google.code.kaptcha.Constants;
 import com.google.code.kaptcha.Producer;

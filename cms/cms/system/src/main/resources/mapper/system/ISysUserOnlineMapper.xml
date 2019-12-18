@@ -23,9 +23,8 @@
         start_timestamp as startTimestamp,last_access_time as lastAccessTime,expire_time as expireTime
     </sql>
     <select id="selectOnlineById" parameterType="string" resultMap="SysUserOnlineResult">
-      select
-      <include refid="baseSql"/>
-      from sys_user_online
+        select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time
+        from sys_user_online
       <where>
           <if test="sessionId!=null">
               sessionId = #{sessionId}
@@ -36,7 +35,7 @@
     <delete id="deleteOnlineById" parameterType="string">
         delete   from sys_user_online
         <where>
-            <if test="seesionId!=null">
+            <if test="sessionId!=null">
                 sessionId = #{sessionId}
             </if>
         </where>

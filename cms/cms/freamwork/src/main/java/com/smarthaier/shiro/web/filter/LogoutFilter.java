@@ -1,8 +1,10 @@
 package com.smarthaier.shiro.web.filter;
 
+import com.smarthaier.common.constant.Constants;
 import com.smarthaier.common.constant.ShiroConstants;
 import com.smarthaier.common.utils.StringUtils;
 import com.smarthaier.domain.SysUser;
+import com.smarthaier.manager.AsyncManager;
 import com.smarthaier.shiro.utils.ShiroUtils;
 import org.apache.shiro.cache.Cache;
 import org.apache.shiro.cache.CacheManager;
@@ -51,7 +53,7 @@ public class LogoutFilter extends org.apache.shiro.web.filter.authc.LogoutFilter
                 {
                     String loginName = user.getLoginName();
                     // 记录用户退出日志
-                 //   AsyncManager.me().execute(AsyncFactory.recordLogininfor(loginName, Constants.LOGOUT, MessageUtils.message("user.logout.success")));
+                   // AsyncManager.me().execute(AsyncFactory.recordLogininfor(loginName, Constants.LOGOUT, MessageUtils.message("user.logout.success")));
                     // 清理缓存
                     cache.remove(loginName);
                 }

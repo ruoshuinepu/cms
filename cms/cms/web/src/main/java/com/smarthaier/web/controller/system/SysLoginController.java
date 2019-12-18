@@ -1,4 +1,4 @@
-package com.smarthaier.web.controller;
+package com.smarthaier.web.controller.system;
 
 
 import com.smarthaier.common.core.controller.BaseController;
